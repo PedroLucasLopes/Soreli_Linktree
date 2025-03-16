@@ -13,7 +13,7 @@ function App() {
         <img
           src={ico}
           alt="Soreli"
-          className="absolute bottom-10 md:bottom-3 w-14 md:w-28"
+          className="absolute bottom-12 md:bottom-3 w-18 md:w-28"
         />
       </div>
     </div>
