@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Neue Reman Sans";
+  src: url("./fonts/Neue\ Reman\ Sans\ Variable\ Vf.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  font-family: "Neue Reman Sans" sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-image: url("./assets/background.jpg");
+  
+  background-size:cover;
+  background-color: #f9f9f9;
+  background-position: center -13rem;
+  background-repeat: no-repeat;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  :root {
+    background-size:cover;
+    background-position: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    background-position:center;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    background-position:center -24rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  :root {
+    background-position:center -40rem;
+  }
+}
